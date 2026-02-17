@@ -1,0 +1,74 @@
+@font-face {
+    font-family: 'Ek Mukta';
+    font-style: normal;
+    font-weight: 200; 
+    font-display: swap;
+    src: url('tu-enlace-a-fuente-200.woff2') format('woff2');
+}
+
+nav{
+    margin-top: 0; 
+    background-color: #1E1E1E;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav h1, nav li{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+nav ul li{
+    display: inline;
+    margin-right: 2rem;
+}
+
+body {
+    background-color: #fff;
+    color: #222829;
+    font-family: "Ek Mukta", sans-serif;
+    font-size: 22px;
+    font-weight: 200; /* Aquí aplicas el estilo que pasaste */
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold; /* O usa 700 si importas esa versión */
+    margin-bottom: 15px;
+}
+
+footer{
+    background-color: #E6E6E6; 
+}
+
+p {
+    font-weight: 200; 
+    margin-bottom: 1em;
+}
+.inline{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.logo{
+    width: 2rem;
+    height: 2rem;
+    margin-right: 5px;
+    aspect-ratio: 1/1;
+}
+
+.inline h5{
+    margin-right: 3rem;
+}
+
+.contenedor-principal {
+    max-width: 970px;    /* El ancho máximo que quieres que tenga tu texto */
+    margin: 0 auto;      /* El 'auto' en los lados centra la caja automáticamente */
+    padding: 20px;       /* Espacio interno para que el texto no toque el borde en móviles */
+}
+p {
+    text-align: justify;
+    line-height: 1.6;
+}
