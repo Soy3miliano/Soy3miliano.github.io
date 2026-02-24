@@ -69,11 +69,12 @@ p {
 }
 
 .contenedor-principal {
-    max-width: 970px;    /* El ancho máximo que quieres que tenga tu texto */
-    margin: 0 auto;      /* El 'auto' en los lados centra la caja automáticamente */
-    padding: 20px;       /* Espacio interno para que el texto no toque el borde en móviles */
+    max-width: 970px;    
+    margin: 0 auto;      
+    padding: 20px;      
 }
 p {
     text-align: justify;
     line-height: 1.6;
+
 }
